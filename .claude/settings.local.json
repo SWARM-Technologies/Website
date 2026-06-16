@@ -4,7 +4,8 @@
       "Bash(npx create-next-app@latest *)",
       "Bash(npx next *)",
       "Bash(xargs sed -i 's/sm:pt-28/sm:pt-36/g')",
-      "Bash(xargs sed -i 's/sm:pt-36/sm:pt-24/g')"
+      "Bash(xargs sed -i 's/sm:pt-36/sm:pt-24/g')",
+      "Bash(xargs sed -i 's/sm:pt-32/sm:pt-40/g')"
     ]
   }
 }

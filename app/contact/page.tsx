@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-[#050f07] text-green-50 overflow-x-hidden pt-16 sm:pt-24">
+    <div className="min-h-screen bg-[#050f07] text-green-50 overflow-x-hidden pt-16 sm:pt-40">
       <section className="py-12 sm:py-24 px-4 sm:px-6">
         <div className="max-w-md mx-auto text-center space-y-5 sm:space-y-6">
           <h2 className="text-2xl sm:text-3xl font-bold">

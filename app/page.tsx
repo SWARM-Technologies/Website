@@ -5,7 +5,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#050f07] text-green-50 overflow-x-hidden">
 
       {/* Hero */}
-      <section className="relative flex flex-col items-center justify-center text-center min-h-screen px-5 pt-16 sm:pt-24">
+      <section className="relative flex flex-col items-center justify-center text-center min-h-screen px-5 pt-16 sm:pt-40">
         {/* Glow */}
         <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] sm:w-[600px] h-[200px] sm:h-[400px] bg-emerald-500/10 blur-3xl rounded-full pointer-events-none" />
 
@@ -32,8 +32,12 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 max-w-3xl space-y-5 sm:space-y-6">
-          <div className="inline-block px-3 sm:px-4 py-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/10 text-emerald-400 text-[10px] sm:text-xs font-medium tracking-widest uppercase">
-            Surveillance for Wildlife &amp; Agriculture Risk Management
+          <div className="inline-block px-3 sm:px-4 py-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/10 text-emerald-400/50 text-[10px] sm:text-xs font-medium tracking-widest uppercase">
+            <span className="text-emerald-300 font-bold">S</span>urveillance for{' '}
+            <span className="text-emerald-300 font-bold">W</span>ildlife &amp;{' '}
+            <span className="text-emerald-300 font-bold">A</span>griculture{' '}
+            <span className="text-emerald-300 font-bold">R</span>isk{' '}
+            <span className="text-emerald-300 font-bold">M</span>anagement
           </div>
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight">

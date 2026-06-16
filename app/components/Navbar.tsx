@@ -12,18 +12,18 @@ export default function Navbar() {
   const links = [
     { href: '/', label: 'Home' },
     { href: '/solution', label: 'Solution' },
-    { href: '/product-development', label: 'Product Dev' },
-    { href: '/market-analysis', label: 'Market Analysis' },
+    { href: '/product', label: 'Product' },
+    { href: '/market', label: 'Market' },
     { href: '/team', label: 'Team' },
-    { href: '/partners', label: 'Partners & Advisors' },
-    { href: '/impact', label: 'Impact & Outreach' },
+    { href: '/collaborators', label: 'Collaborators' },
+    { href: '/impact', label: 'Impact' },
     { href: '/contact', label: 'Contact' },
     { href: '/purchase', label: 'Purchase' },
   ]
 
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#050f07]/80 backdrop-blur-md border-b border-emerald-900/30">
+      <nav className="fixed top-0 left-0 right-0 z-50">
 
         {/* Mobile row */}
         <div className="flex sm:hidden items-center justify-between px-4 h-16">
@@ -48,14 +48,14 @@ export default function Navbar() {
         </div>
 
         {/* Desktop: single row, 3-column grid so links are truly centered */}
-        <div className="hidden sm:grid grid-cols-[auto_1fr_auto] items-center px-8 h-24">
+        <div className="hidden sm:grid grid-cols-[auto_1fr_auto] items-center px-8 h-40">
           {/* Left: logo */}
           <Link href="/">
-            <Image src={LogoWithoutTagline} alt="SWARM" className="h-[88px] w-auto rounded-2xl" />
+            <Image src={LogoWithoutTagline} alt="SWARM" className="h-36 w-auto rounded-2xl" />
           </Link>
 
           {/* Center: nav links */}
-          <div className="flex items-center justify-center gap-6 text-base text-emerald-200/60">
+          <div className="flex items-center justify-center gap-10 text-lg text-emerald-200/60">
             {links.map(({ href, label }) => (
               <Link
                 key={href}
