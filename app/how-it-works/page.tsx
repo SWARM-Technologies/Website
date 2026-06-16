@@ -1,14 +1,14 @@
 export default function HowItWorks() {
   return (
-    <div className="min-h-screen bg-[#050f07] text-green-50 overflow-x-hidden pt-16">
-      <section className="py-24 px-6 max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-4">
+    <div className="min-h-screen bg-[#050f07] text-green-50 overflow-x-hidden pt-16 sm:pt-24">
+      <section className="py-12 sm:py-24 px-4 sm:px-6 max-w-5xl mx-auto">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-3 sm:mb-4">
           How <span className="gradient-text">SWARM</span> Works
         </h2>
-        <p className="text-center text-emerald-200/50 text-sm mb-16">
+        <p className="text-center text-emerald-200/50 text-sm mb-10 sm:mb-16">
           Three steps from deployment to protection.
         </p>
-        <div className="grid sm:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-3 gap-4 sm:gap-6">
           {[
             {
               icon: (
@@ -47,7 +47,7 @@ export default function HowItWorks() {
           ].map((f) => (
             <div
               key={f.title}
-              className="rounded-2xl border border-emerald-900/50 bg-emerald-950/30 p-7 flex flex-col gap-4 hover:border-emerald-700/50 transition-colors"
+              className="rounded-2xl border border-emerald-900/50 bg-emerald-950/30 p-6 sm:p-7 flex flex-col gap-4 hover:border-emerald-700/50 transition-colors"
             >
               <div className="p-3 rounded-xl bg-emerald-500/10 w-fit">{f.icon}</div>
               <div>
